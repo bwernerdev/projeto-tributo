@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f83131;
+    font-family: Arial;
+}
+
+figure {
+    padding: 5px;
+    margin: 0;
+    border: 1px solid #CCC;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+figcaption {
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px;
+}
+
+header {
+    background-image: url(/assets/image/bg-flash.jpg);
+    background-position: center;
+    background-repeat: none;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+header p {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    flex-direction: column;
+    display: flex;
+    width: 900px;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+header p {
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.main-content p,
+.main-content li {
+    font-size: 16px;
+    text-align: justify;
+    padding: 10px;
+}
+.main-content ul li a{
+    font-size: 16px;
+    padding-top: 5px;
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+}
+
+.final-content p,
+.final-content li {
+    font-size: 16px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.main-content h3 {
+    font-size: 15px;
+}
+
+.flash-final img {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+footer {
+    justify-content: center;
+    display: flex;
+    border-top: 2px solid white;
+    font-size: 12px;
+
+}
