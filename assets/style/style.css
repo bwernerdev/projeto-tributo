@@ -71,7 +71,7 @@ section {
 }
 
 .main-content p,
-.main-content li {
+.main-content ul li {
     font-size: 16px;
     text-align: justify;
     padding: 10px;
@@ -82,10 +82,10 @@ section {
     text-decoration: none;
     color: black;
     list-style-type: none;
+    cursor: pointer;
 }
 
-.final-content p,
-.final-content li {
+.final-content ul li {
     font-size: 16px;
     text-align: justify;
     padding: 10px;
@@ -109,4 +109,8 @@ footer {
     border-top: 2px solid white;
     font-size: 12px;
 
+}
+
+@media (min-width: 400){
+    
 }
